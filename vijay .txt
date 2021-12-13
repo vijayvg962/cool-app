@@ -3,7 +3,14 @@ nidigunta
 iusdfhfiuxdhfixh
 hzsfhbjdbjfh
 fnz jxzd kjf kjfdf n 
+<<<<<<< HEAD
 vjgh
 iusdfhfiuxdhfixhdh
 iusdfhfiuxdhfixhdjeu
 iusdfhfiuxdhfixh
+=======
+love india
+vvv
+test
+test2
+>>>>>>> 96aaa6a5e718141af47450262543f344f3c59c44
