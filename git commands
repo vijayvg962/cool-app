@@ -1,0 +1,111 @@
+git config --global user.name "Indhukuri Prudhvi Raju"
+git config --global user.email "prudhvi1247@icloud.com"
+
+cat ~/.gitconfig                - To Find User Details of local repository
+
+code .                        - To Open Visual Studio code
+
+clear                         - To clear Git Bash Interface
+
+git init                      - To Convert local folder into git repository
+
+ls                            - To Find List of Files
+
+git status                    - To find git status
+
+git add filename1 filename2   - To Stage File 1 and File 2
+
+git add *                     - To stage All Files
+
+git add *.txt                 - To Stage All Text Files
+
+git rm FILENAME               - To remove Specified FILE
+
+git commit -m ' message '     - To Commit Files In Staging
+
+git show COMMIT-ID            - To Find files and content added to that COMMIT-ID
+
+git log                       - To Find Commit Log History
+
+git log --oneline             - To Get One line Commit Log History
+
+git remote add origin https://github.com/prudhvi1247/Devops.git    - To add Remote github repository
+
+git remote rm origin          - To remove Remote github repository
+
+
+
+git push --set-upstream origin master      - To Push  files from local to remote
+ git push origin master       - To Push  files from local to remote
+ git push                     - To Push  files from local to remote
+
+ git pull Origin master       - To Pull Files From Remote github repository to local
+ git pull                     - To Pull Files From Remote github repository to local
+
+git clone https://github.com/prudhvi1247/Devops.git            - To clone Remote Repository To local
+
+git diff                      - To See The Differences
+
+git fetch                     - To Get Remote Commits to local without merge
+
+git diff HEAD FETCH_HEAD      -  To find Differences between local and remote before merging
+
+git merge                     - To Merge Remote Commits & local Commits
+
+:wq                           - To Write and quit git editor terminal
+
+git restore *                 - To Discard All Changes
+
+git restore filename.txt      - To Discard changes in specific file
+
+git restore --staged filename.txt         - To unstage specific file
+
+git restore --staged *        - To unstage all Files
+
+git reset                     - To Remove Commits From The History
+
+git reset COMMIT-ID           - To Remove all commits above given COMMIT-ID
+
+git reset --soft COMMIT-ID    - To Remove local commit and keep changes in Staging
+
+git reset --hard COMMIT-ID    - To Remove local commit and permanently discard changes 
+
+git reset --mixed COMMIT-ID    - To Remove local commit and keep changes
+
+
+
+git revert COMMIT-ID                - To Undo local and Remote Commits & This will not Remove Commit From History
+
+git show COMMIT-ID                  - To find Details  of all files present in commit
+
+git show COMMIT-ID --name-only      - To find only names in specific commit ID
+
+git show COMMIT-ID --name-only --help - To get Help 
+
+git checkout master                 - To point or Navigate to master
+
+git checkout BRANCHNAME             - To point or Navigate to specific BRANCHNAME
+
+git checkout COMMIT-ID              - To point or Navigate to The specific COMMIT
+
+git checkout COMMIT-ID FILENAME     - To point or Navigate to specific COMMIT without making any changes in working area files
+
+git branch BRANCHNAME               - To Create a new branch with name as BRANCHNAME
+
+git push origin BRANCHNAME          - To Push Branch to Remote
+
+git branch -d BRANCHNAME            - To Delete Branch in local
+
+git push -d origin BRANCHNAME       - To Delete Branch in Remote
+
+git stash                           - To move changes in working and index area, and puts them into a stack(stash area).
+
+git stash save                      - To save changes    (to stash changes)
+
+git stash pop                       - To unstash changes and remove an entry from stash area
+
+git stash apply                     - To  unstash changes and keep an entry in stash area
+
+git cherry-pick                     - To pick specific commit
+
+git rev-parse Head                  - To get Latest commit
