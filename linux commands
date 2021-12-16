@@ -1,0 +1,76 @@
+pwd                               - To Find Presenr working Directory
+
+uname                             - To Find Host Name
+
+tty
+
+w
+
+last
+
+cd                                - To change Directiory position to home location
+
+cd /                              - To change Directiory position to root location
+
+ls                                - To find list of all files in a Directory
+
+ls -l                             - To find list of all files in a Directory In Line
+
+touch FILENAME.txt                - To create a text file with name FILENAME
+
+touch file1 file2 file3
+
+cat > FILE                        - To create file with some information   {ctrl+d to save the information}
+
+cat >> FILE                       - To Upgrade previously created file   {ctrl+d to save the information}
+
+vi file                           - To create file new editable files    {:wq to write and quit}
+
+mkdir DIRECTORYNAME               - To create a new Directory
+
+cp FILENAME DIRECTORYNAME/        - To Copy file to specified Directory
+
+sudo cp Directory/FILE .
+
+head -n10 FILENAME
+
+tail -n10 FILENAME
+
+ln file1 file2
+
+ln -s file1 file2
+
+
+mv FILENAME DIRECTORYNAME/        - To Move file to specified Directory
+
+stat FILENAME
+
+
+rm file1 
+
+rm file1 file2 file3
+
+rm -rf *
+
+rm -rf Directory/
+
+:set nu
+
+:set none
+
+:/searchword
+
+:10
+
+:wq!
+
+:q!
+
+:%s/KEYWORD/keyword
+
+:10s/KEYWORD/keyword
+
+Esc+u
+
+
+
