@@ -2,11 +2,11 @@ pwd                               - To Find Presenr working Directory
 
 uname                             - To Find Host Name
 
-tty
+tty                                -short of teletype
+ls -ltr                            -you to view a list of the files and folders in a given directory
 
-w
+sudo                               -linux commands that allows programs to be exacuted as a super user
 
-last
 
 cd                                - To change Directiory position to home location
 
@@ -50,7 +50,7 @@ rm file1
 
 rm file1 file2 file3
 
-rm -rf *
+rm -rf *                          -delating files filename enter
 
 rm -rf Directory/
 
@@ -62,15 +62,15 @@ rm -rf Directory/
 
 :10
 
-:wq!
+:wq!                               -write and quit the files
 
-:q!
+:q!                                -quit the files
 
 :%s/KEYWORD/keyword
 
 :10s/KEYWORD/keyword
 
-Esc+u
+Esc                                  -switch to command mode
 
 
 
