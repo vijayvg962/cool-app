@@ -1,0 +1,47 @@
+Git Terminal Shortcuts
+
+press "i" (i for insert)
+write your merge message
+press "esc" (escape)
+write ":wq" (write & quit)
+then press enter                  
+ the way you remember this is that "i" is for "insert", "esc" is the exit the insertion, and ":wq" is just "write" and "quit" 
+
+
+
+ Git Branch
+Every new change, enhancement, bug fixes must be done by creating a separate branch. Master is the default branch which is created, and we should keep master as a stable branch, we should not push unstable code into master directly, our code must be reviewed, tested and should be bugfree before merging to master.
+
+
+The git branch is lightweight, it is just a pointer.
+
+A Developer working on a task
+
+Take latest code ( git pull)
+Create new branch (git branch task-1)
+Switch the branch (git checkout task-1)
+Make changes and commit
+Merging changes to master branch
+Push local branch to remote
+git push origin <branch-name>
+Create pull request, pull request show difference between out task branch and main branch, it will highlight the file and content that is updated or added.
+After code is reviewed and we are ready to merge.
+Delete Branch in local
+git branch -d task-1
+Delete branch in remote
+git push -d origin task-1
+
+
+(FAQ)Can you explain the branching strategy you are following in your project?
+master branch, it should have well tested bug free code. We should not directly push changes to master.
+develop branch, this is an integration branch for all features.
+feature branch, this is used to implement new features, this branch is created from develop branch and integrated into develop.
+hotfix branch, this branch is used to work on production defects, its main branch is master.
+release branch, we are going to create a separate release branch for every new release.
+Branch naming conventions 
+
+feature/hari/login
+feature/sita/excelupload
+hotfix/hari/sendemail
+develop/team-1
+develop/team-2
